@@ -1,0 +1,13 @@
+/* Ensure no custom styles are overriding the default Bootstrap styles */
+.alert-custom {
+    position: relative;
+    padding-right: 3rem; /* Make space for the button on the right */
+  }
+  
+  .btn-close {
+    position: absolute;
+    right: 1rem; /* Adjust the distance from the right edge */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
